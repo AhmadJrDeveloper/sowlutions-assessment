@@ -1,0 +1,35 @@
+.search-input {
+  width: 50rem;
+  height: 2rem;
+  border-radius: 5px;
+  border: 1px solid grey;
+  /* margin-left: 10px; */
+}
+
+.search-input:focus {
+  padding-left: 10px;
+}
+
+.search-input::placeholder {
+  padding-left: 10px;
+}
+
+.search-box-container {
+  position: relative;
+}
+
+.clear-input-icon {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  background-color: gray;
+  height: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+  .search-input {
+    width: 20rem;
+  }
+}

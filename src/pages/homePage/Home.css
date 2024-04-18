@@ -1,0 +1,16 @@
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 100%;
+    background-color: rgb(238, 237, 237);
+    margin: 1rem;
+}
+
+.display-data {
+    border-bottom: 3px solid rgb(216, 215, 215);
+}
+
+.bold-text {
+    font-weight: bold;
+}
